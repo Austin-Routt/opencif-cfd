@@ -3,6 +3,14 @@ message: "If you use these models, data or code, please cite them as below."
 title: "opencif-cfd: the COMSOL models and Python CFD of the CIF dissertation"
 version: "1.0.0"
 date-released: "2026-11-09"
+doi: "10.5281/zenodo.24091947"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24091947"
+    description: "version 1.0.0 on Zenodo, the files the dissertation uses"
+  - type: doi
+    value: "10.5281/zenodo.24091946"
+    description: "all versions on Zenodo (resolves to the newest)"
 authors:
   - family-names: "Routt"
     given-names: "A. H."

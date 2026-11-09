@@ -4,6 +4,8 @@ Every figure, table, paragraph and number of the dissertation that rests on CFD,
 stand behind it. Paragraph IDs are those of the dissertation's outline (for example C4.9-P07 is Section 4.9, paragraph
 7); number IDs are those of its numbers register. The dissertation always uses the files here, which are the updated
 values: where the preprint (Routt, 2026) printed an earlier value, the preprint is updated, not the dissertation.
+The dissertation cites this repository as version 1.0.0, https://doi.org/10.5281/zenodo.24091947 (reference key
+`opencifcfd100` in its outline).
 
 ## Figures and tables
 

@@ -1,5 +1,7 @@
 # opencif-cfd: the COMSOL models and Python CFD of the CIF dissertation
 
+[![DOI](https://zenodo.org/badge/1451755952.svg)](https://doi.org/10.5281/zenodo.24091946)
+
 This repository holds every computational-fluid-dynamics file behind Austin Routt's dissertation on Controlled
 Incremental Filtration (CIF) design: the COMSOL Multiphysics models, reports and exports, an independent open-source
 solve of the same geometries, and the comparison of the two. It closes the CFD work of Sections 4.9 and 5.5, and
@@ -168,8 +170,13 @@ matplotlib (`cfd/requirements.txt`).
 
 ## Citing
 
-`CITATION.cff` gives the citation; GitHub shows it under "Cite this repository". Each release is archived on Zenodo,
-whose DOI then identifies the exact files a citation refers to.
+`CITATION.cff` gives the citation; GitHub shows it under "Cite this repository". Each release is archived on Zenodo.
+Cite the version you used: version 1.0.0, the files of 9 November 2026 that the dissertation uses, is
+https://doi.org/10.5281/zenodo.24091947. The DOI https://doi.org/10.5281/zenodo.24091946 (the badge above) stands
+for all versions and always resolves to the newest.
+
+> Routt, A. H. (2026). *opencif-cfd: The COMSOL models and Python CFD of the CIF dissertation* (Version 1.0.0)
+> [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24091947
 
 ## Author and licences
 
