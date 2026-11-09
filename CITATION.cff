@@ -21,9 +21,7 @@ keywords:
   - COMSOL Multiphysics
   - finite element method
   - verification and validation
-license:
-  - MIT
-  - CC-BY-4.0
+license: CC-BY-4.0
 repository-code: "https://github.com/Austin-Routt/opencif-cfd"
 references:
   - type: article

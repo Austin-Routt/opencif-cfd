@@ -6,11 +6,11 @@ Every file of this repository, with its size in bytes and its SHA-256 (the same 
 |---|---:|---|
 | `.gitattributes` | 160 | `0c1ef3d6b7e4c48701adde3a59532c868b494a59c92461e2eb9110047d1503a6` |
 | `.gitignore` | 263 | `0d711df85394e683f12e239c298493325ab68e66df6a9debbfdc15679ebac9ed` |
-| `CITATION.cff` | 1884 | `263e23127e4e4ab443fc5ffa63519d01e5ccc66d1736a4050c3c70d22060e37e` |
-| `DISSERTATION_MAP.md` | 6235 | `03ad371b29399827a4e3725eb6d69ed737f8af5e492f89973481f21432c62452` |
+| `CITATION.cff` | 1872 | `4c97e442a5e72cd14515af01e4fdf9171847b00a41357dbabaef33cea91c33eb` |
+| `DISSERTATION_MAP.md` | 6324 | `953867fded3fba8b860ba7cbb5245376955181559e9802bda6cc192c95a39f74` |
 | `LICENSE` | 1068 | `5f71d5a9376038c7241848cd630c0801c457322022878c85943b5f3e8a67e383` |
 | `LICENSE-DATA.md` | 805 | `02a76424ee76db319ef970109990fab8893ffd9365a2b40ea69043b4042b272b` |
-| `README.md` | 12132 | `fcb1771c4fb18f98a49937e0f684219b2184a841968e6d82518ba930ba25076b` |
+| `README.md` | 12403 | `a457cbd8b662fe4e5ed8bc96ebb6be806297b28dbe74eb985e7b2020bb720c06` |
 | `cfd/LICENSE` | 1068 | `5f71d5a9376038c7241848cd630c0801c457322022878c85943b5f3e8a67e383` |
 | `cfd/README.md` | 7699 | `f6839f3845851c6a5dd24c01d6a44ce223509902269abaf927321f1171793772` |
 | `cfd/figures/F4-1c_gap_passage.pdf` | 64946 | `4bc149fdc50c4ad18f3235cd7b56c11ea5f76d94e7062811b780fc0f73379e6f` |
@@ -290,3 +290,18 @@ Every file of this repository, with its size in bytes and its SHA-256 (the same 
 | `comsol/single_gap/runB_5e-4_passage/middepth_speed2.png` | 268135 | `daf8bee181008b38fdcd05ed18c08a3a46dd70cc41aab3ca41464136a0e1ab9b` |
 | `comsol/single_gap/runB_5e-4_passage/report.docx` | 4218061 | `94366c46ffe7d403011a5290eff4bb26172f0468ca4e861ad400072b0e28ded0` |
 | `comsol/single_gap/runB_5e-4_passage/xy-plane mesh.png` | 487083 | `5677c20b68e2ad90ae94babdeb9933766ff402495d8a243bb4297c353fa19302` |
+| `dissertation_figures/F3-5_depth_factor.pdf` | 23264 | `dae341bf6c8b76e9fa0c8e86439ba5f607f0af49677823d0cdb12f16a915182e` |
+| `dissertation_figures/F3-5_depth_factor.png` | 210419 | `340f842fc8cb54bf6a65673a17d65899e3136409966c6bafa749fbb05eef1743` |
+| `dissertation_figures/F4-1_cfd_middepth.pdf` | 577628 | `25d6f8ccc0b1a97b3dc6d778701e3710054417afd4019e20f93fde7cd9a82bb2` |
+| `dissertation_figures/F4-1_cfd_middepth.png` | 899537 | `ad0236ead11d1af771bffecc5f8143e34f143fa7dde6157c76282f2bff707d4f` |
+| `dissertation_figures/F4-2_cfd_section.pdf` | 544480 | `497dc4999ad6787580402a086d77aedafe75b6378e882a2bff9330faa4ccdbf3` |
+| `dissertation_figures/F4-2_cfd_section.png` | 860791 | `b2cc41f7ee8485e4308c45a2541819e2826eadb58267888fcb37d602f44aeb03` |
+| `dissertation_figures/F4-3_cfd_model.pdf` | 24072 | `ae6e1ba6c74317cf6d3cc87561f2b52b9fb90995d26d6ef49793f7c20096942d` |
+| `dissertation_figures/F4-3_cfd_model.png` | 122350 | `0beb20338b4f3766221150e8d65bcfbc0d3c1858552d6e1a4980008735f5b748` |
+| `dissertation_figures/F4-5_cfd_campaign.pdf` | 29844 | `c4a209e9dcc9c2b433bbcb331233b2b2220d228e983e276346e96152437f14e9` |
+| `dissertation_figures/F4-5_cfd_campaign.png` | 265931 | `719b1446e34e7b9c66633f89ad90512f2a3d6b264b7bce574c4e166fb9cecf87` |
+| `dissertation_figures/F4-6_two_code.pdf` | 30909 | `e7cbc8c1d0f8be8c09d05a6044a70a17cbec0361c8194e82d69db1c3584f1a9e` |
+| `dissertation_figures/F4-6_two_code.png` | 374042 | `ffc91a6bd83b2be31e83d6c23d616851ddab947ce1643ef5d09733515e44ee75` |
+| `dissertation_figures/F5-1_outlet_slab.pdf` | 23805 | `d2d6d99a79f818b72ad15d70689dc695bd056ae1ad7034e4ad650e104cd07444` |
+| `dissertation_figures/F5-1_outlet_slab.png` | 186590 | `571bf292fb8c92329d43e2c790138ad68be651d88d35b6fc1898e8b6259aebc7` |
+| `dissertation_figures/README.md` | 3554 | `b47146bf55d2cd6ddd59f2d0fffc388cf47420447e666a1def98cc4b032d585b` |

@@ -18,7 +18,8 @@ values: where the preprint (Routt, 2026) printed an earlier value, the preprint 
 | F4-6 | Python CFD against COMSOL, single gap and five-gap slab | `cfd/results/comparison.json` (the dissertation's copy, `kb/cfd_comparison_2026-11-09.json`, is byte-identical: SHA-256 `b57d690dd533964f192c…`, the full digest in `SHA256SUMS.txt`) |
 | F5-1 | the five-gap slab and its center-to-side pressure differences | `comsol/five_gap/V1_coarse/table1.txt` to `table5.txt` and `comsol/five_gap/V3_coarse_resolved/Table1_after.txt` to `Table5_after.txt` |
 
-The archive's own figures (`cfd/figures/`: F4-1c, F4-5d, F5-1c and `two_code_five_gap`) are drawn by `cfd/src/figures.py`
+The figures themselves, as the dissertation prints them, are in `dissertation_figures/`. The archive's own figures
+(`cfd/figures/`: F4-1c, F4-5d, F5-1c and `two_code_five_gap`) are drawn by `cfd/src/figures.py`
 from the same files; the dissertation's F4-6 combines F4-5d and F5-1c.
 
 ## Paragraphs

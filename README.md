@@ -6,7 +6,8 @@ solve of the same geometries, and the comparison of the two. It closes the CFD w
 `DISSERTATION_MAP.md` says which file stands behind each figure, paragraph and number of the dissertation that uses
 CFD. Its content is the CFD archive of 9 November 2026 (`OpenCIF_CFD_Archive_2026-11-09`), file for file, with the
 files that make it a repository added (this README, `DISSERTATION_MAP.md`, `CITATION.cff`, the licences,
-`checks/verify_sha256.py`, `.gitattributes`, `.gitignore`).
+`checks/verify_sha256.py`, `.gitattributes`, `.gitignore`) and the dissertation's CFD figures
+(`dissertation_figures/`).
 
 "Python CFD" names the independent solver throughout: the author's finite-element code in `cfd/src/`, built on
 scikit-fem and PyAMG. It is not a published package, and the October 2026 packages called it "the second code".
@@ -151,6 +152,7 @@ smaller than the 0.53% between the simulated and the analytic depth factors that
 | `checks/independent_recheck/` | a from-scratch recomputation of the COMSOL numbers, which agrees to every printed digit |
 | `checks/verify_sha256.py` | checks every file against `SHA256SUMS.txt` (any platform, Python 3) |
 | `DISSERTATION_MAP.md` | each figure, paragraph and number of the dissertation that uses CFD, with its files here |
+| `dissertation_figures/` | the dissertation's CFD figures (F3-5, F4-1, F4-2, F4-3, F4-5, F4-6, F5-1) as it prints them |
 
 ## Software
 
@@ -173,5 +175,6 @@ whose DOI then identifies the exact files a citation refers to.
 
 Austin Routt (ORCID 0000-0002-7286-2924). The code (`cfd/src/`, `cfd/run_all.sh`, `checks/`) is under the MIT licence
 (`LICENSE`, also `cfd/LICENSE`). The COMSOL models, reports, exports, run records, results and figures are under the
-Creative Commons Attribution 4.0 International licence (`LICENSE-DATA.md`). COMSOL Multiphysics is needed to open the
+Creative Commons Attribution 4.0 International licence (`LICENSE-DATA.md`); `CITATION.cff`, and so the Zenodo
+record, names that licence, because Zenodo takes one. COMSOL Multiphysics is needed to open the
 `.mph` files; the exports and reports can be read without it.
