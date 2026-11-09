@@ -1,0 +1,6 @@
+numpy>=1.26
+scipy>=1.11
+scikit-fem>=10
+pyamg>=5
+matplotlib>=3.8
+# versions of the archived runs: numpy 2.5.3, scipy 1.18.1, scikit-fem 12.0.2, pyamg 5.4.1, matplotlib 3.11.2 (Python 3.13.16)

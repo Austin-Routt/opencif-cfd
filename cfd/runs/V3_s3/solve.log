@@ -1,0 +1,7 @@
+mesh: 51360 tets, 10872 vertices (scale 3); grid 64 x 21 x 9
+assembled: 232509 velocity dofs, 10872 pressure dofs, nnz(A) 15399259 (41 s)
+condensed 203987 unknowns; AMG levels 6, complexity 2.06 (43 s)
+  minres it 100, residual 2.37e-03
+  minres it 200, residual 5.53e-06
+minres info 0, 259 iterations, relative residual 1.91e-07 (67 s)
+{"n_tets": 51360, "n_vert": 10872, "n_dofs": 203987, "minres_it": 259, "residual": 1.908148593976234e-07, "seconds": 66.66733169555664, "Lx": 272.0, "variant": "V3", "scale": 3.0, "tol": 1e-09, "G": {"w_c": 52.0, "w_s": 57.0, "gap": 19.0, "L_post": 27.0, "L_gap_x": 22.0, "depth": 140.0, "n_gaps": 5, "h_gap": 1.0, "h_bulk": 5.0, "h_wall": 1.0, "h_floor": 1.0, "growth": 1.3}, "mu_Pa_s": 0.0012, "p_in_Pa": 100.0, "versions": {"python": "3.13.16", "numpy": "2.5.3", "scipy": "1.18.1", "scikit_fem": "12.0.2", "pyamg": "5.4.1", "machine": "x86_64"}}

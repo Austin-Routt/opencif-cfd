@@ -1,0 +1,19 @@
+# peak resident memory of each step, sampled every 3 s, in MB (a sample counts for the run started last before it)
+A_dev_s1       post    1928
+A_dev_s1       solve   3499
+B_dev_s1       post    2320
+B_dev_s1       solve   4102
+B_dev_s2       post    1024
+B_dev_s2       solve   2081
+B_uni_s1       post    2318
+B_uni_s1       solve   4086
+C_dev_s1       post    1678
+C_dev_s1       solve   3358
+V1_s1.7        post    1979
+V1_s1.7        solve   4745
+V1_s2          post    1476
+V1_s2          solve   3696
+V3_s1.7        post    2090
+V3_s1.7        solve   4747
+V3_s2          post    1624
+V3_s2          solve   4047

@@ -1,0 +1,99 @@
+{
+ "meta": {
+  "n_tets": 63288,
+  "n_vert": 12597,
+  "n_dofs": 254451,
+  "minres_it": 552,
+  "residual": 3.860716045190526e-08,
+  "seconds": 84.45323634147644,
+  "run": "B",
+  "frac": 0.00048751210307083063,
+  "scale": 2.0,
+  "inlet": "developed",
+  "tol": 1e-09,
+  "G": {
+   "w_c": 100.0,
+   "w_s": 60.0,
+   "gap": 20.0,
+   "depth": 140.0,
+   "L_entry": 100.0,
+   "L_gap_x": 20.0,
+   "L_exit": 60.0,
+   "L_x": 180.0,
+   "frac": 0.00048751210307083063,
+   "h_wall": 0.1,
+   "h_floor": 0.5,
+   "h_gap": 1.0,
+   "hmax": 8.0,
+   "growth": 1.3
+  },
+  "versions": {
+   "python": "3.13.16",
+   "numpy": "2.5.3",
+   "scipy": "1.18.1",
+   "scikit_fem": "12.0.2",
+   "pyamg": "5.4.1",
+   "machine": "x86_64"
+  }
+ },
+ "mass": {
+  "Q_in": 3500.0958822509506,
+  "Q_center_out": 3498.389112402748,
+  "Q_side_out": 1.706292351074795,
+  "imbalance": 1.3642401341368202e-07,
+  "f_q_achieved": 0.00048749874531364533,
+  "Q_in_nominal": 3500.0
+ },
+ "skim": {
+  "f_q_python": 0.00048749874531364533,
+  "f_q_comsol": 0.00048751210307083063,
+  "python": {
+   "native": 0.8574519368536473,
+   "resampled": 0.8562245406810486,
+   "duct_law": 0.8602569978811604,
+   "native_over_law": 0.9967392755485605
+  },
+  "comsol": {
+   "native": 0.8595559308538134,
+   "resampled": 0.8584447783533945,
+   "duct_law": 0.8602688374356351,
+   "native_over_law": 0.999171297912003
+  },
+  "python_over_comsol_native": 0.9975522314201518,
+  "python_over_comsol_resampled": 0.9974136511417722,
+  "python_over_comsol_at_equal_law": 0.9975659605429772,
+  "upstream_field": {
+   "max_abs_diff": 0.0038061845239751382,
+   "rel_l2": 0.00040413084477418945,
+   "peak_python": 2.0649757412268857,
+   "peak_comsol": 2.0653605169680813
+  }
+ },
+ "middepth": {
+  "trace_python": {
+   "y_seed": 49.23721657167701,
+   "delta_at_x_report": 0.7600601164307278,
+   "delta_min_upstream": 0.4579067380962982,
+   "delta_at_gap_edge": 0.4579067380962982
+  },
+  "trace_comsol": {
+   "y_seed": 49.28437159604255,
+   "delta_at_x_report": 0.7131316529811129,
+   "delta_min_upstream": 0.4892586517039419,
+   "delta_at_gap_edge": 0.4892586517039419
+  },
+  "gap_mouth": {
+   "python": {
+    "inflow_max": 0.04383275269182876,
+    "outflow_min": -0.04604397364532499,
+    "net_per_um": 0.0009975930690379856
+   },
+   "comsol": {
+    "inflow_max": 0.03914070322626194,
+    "outflow_min": -0.036825142632456134,
+    "net_per_um": 0.001398708140995809
+   }
+  },
+  "y_lobes": 50.0
+ }
+}

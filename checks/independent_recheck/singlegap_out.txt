@@ -1,0 +1,43 @@
+duct self-test: Q_series=6.5416399114e+06 Q_closedform=6.5416399114e+06 Q_numeric=6.5416358815e+06; band(3um) series=1.89620249e+04 numeric=1.89619307e+04; Laplacian at interior=-0.998441 (expect -1)
+
+### RunB_uniform: x=[75.], ny=1001 y[0.0,50.0], nz=71 z[0.0,70.0], blocks=3 sizes=[71071, 71071, 71071] names=['u (m/s)', 'v (m/s)', 'w (m/s)']
+  NaN count per block: [0, 0, 0]
+  ordering y_fastest: max|u| on floor z=0: 2.310e-17; on wall y=w_c/2: 6.075e-17; max|u| overall 1.891370e-01 at (y,z)=(np.int64(0), np.int64(70))
+  ordering z_fastest: max|u| on floor z=0: 1.891e-01; on wall y=w_c/2: 2.732e-02; max|u| overall 1.891370e-01 at (y,z)=(np.int64(986), np.int64(64))
+  (y-fastest) max|v| on y=w_c/2 wall 1.020e-19, max|w| on z=0 floor 1.142e-19, max|v| at y=0 4.142e-20, max|w| at z=h/2 7.958e-19
+  plane flow (quarter) = 3.2746379721e-10 m^3/s; u max 1.89136985e-01
+  delta = 0.8646003197 um; duct delta = 0.8679456315 um; ratio = 0.9961457128
+  check: duct fraction at dd = 2.481060380789e-04 (target 2.481060380789e-04)
+  (info) delta with Simpson in z = 0.8645659000
+
+### RunB_developed: x=[75.], ny=1001 y[0.0,50.0], nz=71 z[0.0,70.0], blocks=3 sizes=[71071, 71071, 71071] names=['u (m/s)', 'v (m/s)', 'w (m/s)']
+  NaN count per block: [0, 0, 0]
+  ordering y_fastest: max|u| on floor z=0: 2.294e-17; on wall y=w_c/2: 6.246e-17; max|u| overall 1.966861e-01 at (y,z)=(np.int64(0), np.int64(70))
+  ordering z_fastest: max|u| on floor z=0: 1.967e-01; on wall y=w_c/2: 2.829e-02; max|u| overall 1.966861e-01 at (y,z)=(np.int64(986), np.int64(64))
+  (y-fastest) max|v| on y=w_c/2 wall 9.235e-20, max|w| on z=0 floor 5.506e-21, max|v| at y=0 9.036e-20, max|w| at z=h/2 8.553e-21
+  plane flow (quarter) = 3.3330815500e-10 m^3/s; u max 1.96686144e-01
+  delta = 0.8595559309 um; duct delta = 0.8602682950 um; ratio = 0.9991719279
+  check: duct fraction at dd = 2.437560515354e-04 (target 2.437560515354e-04)
+  (info) delta with Simpson in z = 0.8595235121
+
+### RunA: x=[75.], ny=521 y[0.0,26.0], nz=71 z[0.0,70.0], blocks=3 sizes=[36991, 36991, 36991] names=['u (m/s)', 'v (m/s)', 'w (m/s)']
+  NaN count per block: [0, 0, 0]
+  ordering y_fastest: max|u| on floor z=0: 4.071e-17; on wall y=w_c/2: 4.992e-17; max|u| overall 3.480287e-01 at (y,z)=(np.int64(0), np.int64(70))
+  ordering z_fastest: max|u| on floor z=0: 3.479e-01; on wall y=w_c/2: 8.796e-02; max|u| overall 3.480287e-01 at (y,z)=(np.int64(513), np.int64(47))
+  (y-fastest) max|v| on y=w_c/2 wall 1.460e-19, max|w| on z=0 floor 5.932e-20, max|v| at y=0 8.881e-20, max|w| at z=h/2 4.457e-20
+  plane flow (quarter) = 3.3328468411e-10 m^3/s; u max 3.48028681e-01
+  delta = 0.4614252763 um; duct delta = 0.4596840283 um; ratio = 1.0037879237
+  check: duct fraction at dd = 2.425900000000e-04 (target 2.425900000000e-04)
+  (info) delta with Simpson in z = 0.4614322152
+
+### RunC: x=[75.], ny=1001 y[0.0,50.0], nz=41 z[0.0,40.0], blocks=3 sizes=[41041, 41041, 41041] names=['u (m/s)', 'v (m/s)', 'w (m/s)']
+  NaN count per block: [0, 0, 0]
+  ordering y_fastest: max|u| on floor z=0: 5.882e-17; on wall y=w_c/2: 1.230e-16; max|u| overall 3.464458e-01 at (y,z)=(np.int64(0), np.int64(40))
+  ordering z_fastest: max|u| on floor z=0: 3.464e-01; on wall y=w_c/2: 3.350e-02; max|u| overall 3.464458e-01 at (y,z)=(np.int64(976), np.int64(24))
+  (y-fastest) max|v| on y=w_c/2 wall 2.680e-19, max|w| on z=0 floor 3.572e-20, max|v| at y=0 1.248e-19, max|w| at z=h/2 2.316e-20
+  plane flow (quarter) = 3.3326757075e-10 m^3/s; u max 3.46445797e-01
+  delta = 0.8058228850 um; duct delta = 0.8037523754 um; ratio = 1.0025760541
+  check: duct fraction at dd = 2.427500000000e-04 (target 2.427500000000e-04)
+  (info) delta with Simpson in z = 0.8058869286
+
+Run B: (dev/duct_dev)/(uni/duct_uni) - 1 = 3.0379241172e-03

@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use these models, data or code, please cite them as below."
+title: "opencif-cfd: the COMSOL models and Python CFD of the CIF dissertation"
+version: "1.0.0"
+date-released: "2026-11-09"
+authors:
+  - family-names: "Routt"
+    given-names: "A. H."
+    orcid: "https://orcid.org/0000-0002-7286-2924"
+abstract: >-
+  Every computational-fluid-dynamics file behind A. H. Routt's dissertation on Controlled Incremental Filtration
+  (CIF) design: the COMSOL Multiphysics models, reports and exports of a single-gap quarter cell (Runs A, B and C) and
+  of a five-gap outlet slab at Dinh et al.'s V1 and V3 outlet widths; Python CFD, an independent finite-element Stokes
+  solver built on scikit-fem and PyAMG, with its runs; and the comparison of the two codes with ASME V&V 20-2009
+  numerical-uncertainty estimates.
+keywords:
+  - microfluidics
+  - controlled incremental filtration
+  - computational fluid dynamics
+  - Stokes flow
+  - COMSOL Multiphysics
+  - finite element method
+  - verification and validation
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://github.com/Austin-Routt/opencif-cfd"
+references:
+  - type: article
+    status: preprint
+    title: "A closed-form outlet identity and open-source reference implementation for controlled incremental filtration"
+    authors:
+      - family-names: "Routt"
+        given-names: "A. H."
+    year: 2026
+    doi: "10.31224/7152"
+  - type: software
+    title: "opencif: a targets-to-photomask generator for Controlled Incremental Filtration devices"
+    authors:
+      - family-names: "Routt"
+        given-names: "A. H."
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23620100"
+  - type: software
+    title: "cif-reference-implementation"
+    authors:
+      - family-names: "Routt"
+        given-names: "A. H."
+    repository-code: "https://github.com/Austin-Routt/cif-reference-implementation"

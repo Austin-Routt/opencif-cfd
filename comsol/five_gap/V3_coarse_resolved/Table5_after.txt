@@ -1,0 +1,6 @@
+% Model:              v3_5gap_coarse_reeval_after.mph
+% Version:            COMSOL 6.4.0.429
+% Date:               Nov 9 2026, 07:14
+% Table:              Table 5 - Side Channel Pressure
+% Pressure (Pa), Point: (38, 73.5, 70) Pressure (Pa), Point: (87, 73.5, 70) Pressure (Pa), Point: (136, 73.5, 70) Pressure (Pa), Point: (185, 73.5, 70) Pressure (Pa), Point: (234, 73.5, 70)
+30.957711538118794                     27.07884604526852                    21.049680596663187                    13.81662013321893                     5.893160971446257

@@ -1,0 +1,61 @@
+=== A_dev_s1.414 08:27:26
+mid-depth plane probed (7 s)
+traces: python 0.37210763360650134, comsol None (15 s)
+done (15 s)
+=== C_dev_s1.414 08:30:33
+mid-depth plane probed (8 s)
+traces: python 0.7318696719042523, comsol 0.7474110985034068 (21 s)
+done (21 s)
+=== B_dev_s1.414 08:33:16
+mid-depth plane probed (10 s)
+traces: python 0.759505296240093, comsol 0.7131316529811129 (23 s)
+done (23 s)
+=== B_uni_s1.414 08:36:55
+mid-depth plane probed (10 s)
+traces: python 0.7555216064275324, comsol 0.7080798658284466 (23 s)
+done (23 s)
+=== B_uni_s2 08:40:32
+mid-depth plane probed (8 s)
+traces: python 0.7560847638637405, comsol 0.7080798658284466 (22 s)
+done (22 s)
+=== A_dev_s2 08:42:22
+mid-depth plane probed (6 s)
+traces: python 0.2983030065240345, comsol None (13 s)
+done (13 s)
+=== C_dev_s2 08:43:43
+mid-depth plane probed (6 s)
+traces: python 0.7357738228873355, comsol 0.7474110985034068 (20 s)
+done (20 s)
+=== V1_s3 08:44:59
+"F": 0.5085140797860904
+=== V3_s3 08:45:59
+"F": 0.6301534964899926
+=== V1_s2 08:47:12
+"F": 0.5082085894751776
+=== V3_s2 08:49:58
+"F": 0.629854072334447
+=== V1_s1.7 08:53:05
+"F": 0.508137560805284
+=== V3_s1.7 08:57:13
+"F": 0.6297976685677857
+=== B_uni_s1 09:01:40
+mid-depth plane probed (11 s)
+traces: python 0.7329523693237822, comsol 0.7080798658284466 (24 s)
+done (24 s)
+=== B_dev_s2 09:07:55
+mid-depth plane probed (9 s)
+traces: python 0.7600601164307278, comsol 0.7131316529811129 (22 s)
+done (22 s)
+=== B_dev_s1 09:09:42
+mid-depth plane probed (12 s)
+traces: python 0.737031675224627, comsol 0.7131316529811129 (25 s)
+done (25 s)
+=== A_dev_s1 09:15:44
+mid-depth plane probed (9 s)
+traces: python 0.3850444493591932, comsol None (17 s)
+done (17 s)
+=== C_dev_s1 09:21:13
+mid-depth plane probed (9 s)
+traces: python 0.6988787559467377, comsol 0.7474110985034068 (24 s)
+done (24 s)
+ALL DONE 09:26:10

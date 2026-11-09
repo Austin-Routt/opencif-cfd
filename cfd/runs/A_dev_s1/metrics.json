@@ -1,0 +1,96 @@
+{
+ "meta": {
+  "n_tets": 155856,
+  "n_vert": 29700,
+  "n_dofs": 631698,
+  "minres_it": 694,
+  "residual": 1.1447593508222832e-07,
+  "seconds": 311.20100474357605,
+  "run": "A",
+  "frac": 0.00048518,
+  "scale": 1.0,
+  "inlet": "developed",
+  "tol": 1e-09,
+  "G": {
+   "w_c": 52.0,
+   "w_s": 44.0,
+   "gap": 19.0,
+   "depth": 140.0,
+   "L_entry": 100.0,
+   "L_gap_x": 20.0,
+   "L_exit": 60.0,
+   "L_x": 180.0,
+   "frac": 0.00048518,
+   "h_wall": 0.1,
+   "h_floor": 0.5,
+   "h_gap": 1.0,
+   "hmax": 8.0,
+   "growth": 1.3
+  },
+  "versions": {
+   "python": "3.13.16",
+   "numpy": "2.5.3",
+   "scipy": "1.18.1",
+   "scikit_fem": "12.0.2",
+   "pyamg": "5.4.1",
+   "machine": "x86_64"
+  }
+ },
+ "mass": {
+  "Q_in": 1820.1074427872807,
+  "Q_center_out": 1819.2242710612388,
+  "Q_side_out": 0.883027594049024,
+  "imbalance": 7.918872777782097e-08,
+  "f_q_achieved": 0.00048515135606322834,
+  "Q_in_nominal": 1820.0
+ },
+ "skim": {
+  "f_q_python": 0.00048515135606322834,
+  "f_q_comsol": 0.00048518,
+  "python": {
+   "native": 0.45966335788532175,
+   "resampled": 0.45945992204223274,
+   "duct_law": 0.4596706061541217,
+   "native_over_law": 0.9999842316025804
+  },
+  "comsol": {
+   "native": 0.4614252762750019,
+   "resampled": 0.46111706696835325,
+   "duct_law": 0.4596842256976932,
+   "native_over_law": 1.0037874925437482
+  },
+  "python_over_comsol_native": 0.9961815737449327,
+  "python_over_comsol_resampled": 0.9964062381446527,
+  "python_over_comsol_at_equal_law": 0.9962110895289901,
+  "upstream_field": {
+   "max_abs_diff": 0.010173087192465222,
+   "rel_l2": 0.000840665566583307,
+   "peak_python": 1.8999387344333045,
+   "peak_comsol": 1.9005139724968303
+  }
+ },
+ "middepth": {
+  "trace_python": {
+   "y_seed": 25.614851181157395,
+   "delta_at_x_report": 0.3850444493591932,
+   "delta_min_upstream": 0.21453697507619296,
+   "delta_at_gap_edge": 0.21453697507619296
+  },
+  "trace_comsol": {
+   "error": "bracket failed: passed / passed"
+  },
+  "gap_mouth": {
+   "python": {
+    "inflow_max": 0.07893507513847238,
+    "outflow_min": -0.07850523713489495,
+    "net_per_um": 0.0005138381666910795
+   },
+   "comsol": {
+    "inflow_max": 0.07617135263531659,
+    "outflow_min": -0.07650965435219673,
+    "net_per_um": 0.00021945644360947433
+   }
+  },
+  "y_lobes": 25.9
+ }
+}

@@ -1,0 +1,12 @@
+# Python byte-code
+__pycache__/
+*.pyc
+# Python CFD's solution files (20 to 60 MB each; cfd/run_all.sh regenerates them)
+cfd/runs/*/solution.npz
+# COMSOL lock files and Office temporary files
+*.lock
+~$*
+# Operating-system leftovers
+.DS_Store
+Thumbs.db
+desktop.ini

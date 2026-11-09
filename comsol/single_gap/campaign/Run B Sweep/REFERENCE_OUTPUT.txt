@@ -1,0 +1,26 @@
+CIF Run B f-sweep -- REFERENCE OUTPUT  (expected result of: python cif_sweep_summary.py)
+Generated from the archived five-point sweep. Re-running the script on the archive
+should reproduce this to the digits shown. (If the 5e-4 folder holds the developed-
+inlet confirmatory run, f_gap=4.8751e-4 and d_skim=0.858 there -- a <1% shift that
+does not change any conclusion.)  w_c=100 um, depth=140 um, alpha=1.40.
+
+frac        f_gap     f_phys  d_skim  d_bulge   K_in  R_depth   valid
+  -------------------------------------------------------------------
+2e-4   1.9848e-04 9.9240e-05   0.543    0.484  1.000    0.942   0.991
+3e-4   2.9773e-04 1.4887e-04   0.667    0.599  1.000    0.944   0.993
+5e-4   4.9621e-04 2.4810e-04   0.864    0.781  1.000    0.947   0.995
+7e-4   6.9470e-04 3.4735e-04   1.023    0.928  1.000    0.947   0.995
+9e-4   8.9318e-04 4.4659e-04   1.160    1.055  1.000    0.947   0.995
+
+  CHECK 1  delta_skim/sqrt(f_phys) spread 0.75%   fit d = 54.821*sqrt(f_phys), R^2 = 0.99992
+           (deep-limit constant w_c/sqrt(3) = 57.735; m/that = 0.950 = mean depth factor R)
+  CHECK 2  K_inplane  1.000, 1.000, 1.000, 1.000, 1.000   (~1 => no funnelling at any f)
+  CHECK 3  R_depth    0.942, 0.944, 0.947, 0.947, 0.947   spread 0.53%  (f-independent)
+           VALIDATION 0.991, 0.993, 0.995, 0.995, 0.995   (delta_skim / exact duct law at f_gap/2; ~1.00 => CFD reproduces the law)
+
+  ROBUSTNESS  K_inplane vs upstream sampling station (rules out a hidden bulge):
+    f=2e-4  K at x_up[auto,75,70,65,62]=['1.000', '1.000', '1.000', '1.000', '1.000']  max bulge 0.0000 um
+    f=3e-4  K at x_up[auto,75,70,65,62]=['1.000', '1.000', '1.000', '1.000', '1.000']  max bulge 0.0000 um
+    f=5e-4  K at x_up[auto,75,70,65,62]=['1.000', '1.000', '1.000', '1.000', '1.000']  max bulge 0.0000 um
+    f=7e-4  K at x_up[auto,75,70,65,62]=['1.000', '1.000', '1.000', '1.000', '1.000']  max bulge 0.0000 um
+    f=9e-4  K at x_up[auto,75,70,65,62]=['1.000', '1.000', '1.000', '1.000', '1.000']  max bulge 0.0000 um

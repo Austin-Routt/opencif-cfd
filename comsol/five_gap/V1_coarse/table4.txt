@@ -1,0 +1,6 @@
+% Model:              v1 5gap coarse_reeval.mph
+% Version:            COMSOL 6.4.0.429
+% Date:               Nov 9 2026, 05:20
+% Table:              Table 4 - Center Channel Pressure
+% Pressure (Pa), Point: (38, 0, 70) Pressure (Pa), Point: (87, 0, 70) Pressure (Pa), Point: (136, 0, 70) Pressure (Pa), Point: (185, 0, 70) Pressure (Pa), Point: (234, 0, 70)
+77.80161146170603                   56.77752636901815                 39.5602016154002                   24.49042937591088                  10.241148524796557

@@ -1,0 +1,6 @@
+% Model:              v1 5gap coarse_reeval.mph
+% Version:            COMSOL 6.4.0.429
+% Date:               Nov 9 2026, 05:18
+% Table:              Table 3 - Q_s_out_top
+% Velocity field, x-component (m^3/s)
+1.6295626879685055E-10

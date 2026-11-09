@@ -1,0 +1,6 @@
+% Model:              runB_5e-4_developed.mph
+% Version:            COMSOL 6.4.0.429
+% Date:               Nov 9 2026, 07:52
+% Table:              Table 4 - Global Evaluation 1
+% intop_in(u) (m^3/s)    intop_cout(u) (m^3/s)    intop_sout(u) (m^3/s)    (intop_in(u)-intop_cout(u)-intop_sout(u))/intop_in(u) (1) intop_sout(u)/intop_in(u) (1)
+3.333333333333333E-10    3.3317082929897573E-10   1.6250403435694354E-13   1.949685504471835E-15                                     4.8751210307083063E-4

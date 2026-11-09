@@ -1,0 +1,19 @@
+mesh: 88200 tets, 17265 vertices (scale 1.41); 36 x 41 x 15 grid
+assembled: 382887 velocity dofs, 17265 pressure dofs, nnz(A) 9508485 (26 s)
+condensed: 355439 unknowns (27 s)
+AMG levels 7, operator complexity 2.24 (29 s)
+  minres it 50, residual 3.02e-02
+  minres it 100, residual 2.78e-02
+  minres it 150, residual 1.36e-02
+  minres it 200, residual 1.28e-03
+  minres it 250, residual 4.30e-04
+  minres it 300, residual 1.73e-04
+  minres it 350, residual 7.12e-05
+  minres it 400, residual 2.88e-05
+  minres it 450, residual 9.12e-06
+  minres it 500, residual 2.49e-06
+  minres it 550, residual 7.59e-07
+  minres it 600, residual 2.85e-07
+  minres it 650, residual 1.19e-07
+minres info 0, 664 iterations, relative residual 8.49e-08 (170 s)
+{"n_tets": 88200, "n_vert": 17265, "n_dofs": 355439, "minres_it": 664, "residual": 8.489970228311321e-08, "seconds": 169.89254546165466, "run": "A", "frac": 0.00048518, "scale": 1.414, "inlet": "developed", "tol": 1e-09, "G": {"w_c": 52.0, "w_s": 44.0, "gap": 19.0, "depth": 140.0, "L_entry": 100.0, "L_gap_x": 20.0, "L_exit": 60.0, "L_x": 180.0, "frac": 0.00048518, "h_wall": 0.1, "h_floor": 0.5, "h_gap": 1.0, "hmax": 8.0, "growth": 1.3}, "versions": {"python": "3.13.16", "numpy": "2.5.3", "scipy": "1.18.1", "scikit_fem": "12.0.2", "pyamg": "5.4.1", "machine": "x86_64"}}
